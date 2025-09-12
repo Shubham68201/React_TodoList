@@ -23,7 +23,7 @@ function Todo({ todoData, isFinished, changeFinished, onDelete, onEdit }) {
       >
         {!isEditing ? "Edit" : "Save"}{" "}
       </button>
-      <button onClick={() => onDelete}>Delete</button>
+       <button onClick={onDelete}>Delete</button>
     </div>
   );
 }
